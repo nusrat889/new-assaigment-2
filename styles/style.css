@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 * {
     padding: 0;
@@ -69,13 +69,15 @@
 }
 
 .btn {
+    width: 140px;
+    height: 52px;
     border-radius: 8px;
     background-color: #FF5400;
-    text-align: center;
     color: #FFF;
     font-family: 'Mulish';
     font-size: 16px;
     font-weight: 700;
+    border: 0;
 }
 
 .our-popular {
@@ -385,6 +387,71 @@
 
 }
 
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    height: 502px;
+}
+
+.hero {
+    color: #131318;
+    font-size: 32px;
+    font-family: 'Mulish';
+    font-weight: 800;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: 'Mulish';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-section {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.footer-title {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-title h3{
+    padding-top: 110px;
+    margin-bottom: 15px;
+}
+
+.footer-title p{
+    margin-bottom: 33px;
+}
+
+.footer-icon {
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.footer-bottom {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter';
+    margin-top: 50px;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 600px) {
     .banner-box {
         display: flex;
@@ -549,7 +616,7 @@
         color: #FFF;
         font-size: 16.138px;
         font-weight: 800;
-    
+
     }
 
     .news-bottom {
@@ -562,5 +629,5 @@
         position: relative;
         bottom: -107px;
         left:149px;
-}
+    }
 }
