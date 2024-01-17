@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    width: 81.25%;
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group 13 (1) (1).png');
+    margin: 0px auto;
+    margin-top: 49px;
+    text-align: center;
+}
+
+.banner-text h3 {
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+    margin-bottom: 24px;
+}
+
+
+.banner-text {
+    width: 549.25;
+}
+
+.banner-discription {
+    width: 549.25px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.banner-box {
+    width: 700px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.banner-box .box {
+    width: 140px;
+    height: 52px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish';
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+
+
+
+.box-1 {
+    padding-left: 10px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: #FF5400;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.our-popular {
+    display: flex;
+    width: 81.25%;
+    margin: 100px auto;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+
+.btn-our {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 14px 34px;
+}
+
+.our-popular-heading {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.our-popular p, .our-popular ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.our-popular p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.our-popular ul li {
+    margin-bottom: 16px;
+}
+
+.our-popular img {
+    width: 100%;
+
+}
+
+.our-popular-img {
+    width: 100%;
+}
+
+.our-popular-discription {
+    width: 60%;
+}
+
+.travel-heading {
+    text-align: center;
+}
+
+.travel-heading h3 {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.travel-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Mulish';
+    width: 580px;
+    margin: 24px auto 48px;
+}
+
+.travel-box {
+    width: 81.25%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
+
+.travel-img-box {}
+
+.img-1 {
+    grid-area: img-1;
+}
+
+.img-2 {
+    grid-area: img-2;
+}
+
+.img-3 {
+    grid-area: img-3;
+}
+
+.img-4 {
+    grid-area: img-4;
+}
+
+.img-5 {
+    grid-area: img-5;
+}
+
+.img-6 {
+    grid-area: img-6;
+}
+
+.img-7 {
+    grid-area: img-7;
+}
+
+.travel-img-box {
+    display: grid;
+    grid-template-areas:
+        "img-1 img-1 img-1 img-1 img-1 img-1 img-2 img-2 img-2 img-2 img-2 img-2"
+        "img-3 img-3 img-3 img-3 img-4 img-4 img-4 img-4 img-4 img-5 img-5 img-5"
+        "img-6 img-6 img-6 img-6 img-6 img-7 img-7 img-7 img-7 img-7 img-7 img-7"
+    ;
+    gap: 24px;
+}
+
+.card-section {
+    width: 81.25%;
+    margin: 0 auto;
+}
+
+.card-heading {
+    text-align: center;
+    font-family: 'Mulish';
+}
+
+.card-heading h3 {
+    margin-top: 100px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 570px;
+    margin: 24px auto 48px;
+}
+
+.cards-container {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.cards h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card-hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 22px 32px;
+}
+
+.card-map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px 22px 32px;
+}
+
+.card-price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 22px 32px;
+    width: 50%;
+    margin: 24px auto;
+}
+
+.card-price h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.newspaper-section {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.newspaper-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-heading h3 {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-heading p {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-box {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-left: 20px; */
+    border: 0;
+}
+
+.btn-news {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Mulish';
+}
+
+.news-heading {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-heading h3 {
+    margin-bottom: 16px;
+}
+
+.news-heading p {
+    margin-bottom: 24px;
+}
+
+.name {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.email {
+    margin-bottom: 24px;
+}
+
+.news-img {
+    height: 377px;
+    width: 600px;
+    background: url('../images/Rectangle 8 (1).png');
+    background-size: 100%;
+}
+
+.news-bottom h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.news-bottom h2 {
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.news-bottom {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: relative;
+    bottom: -210px;
+    left: 269px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .banner-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h3 {
+        color: #FFF;
+        font-family: 'Mulish';
+        font-size: 22px;
+        font-weight: 800;
+        padding-top: 32px;
+    }
+
+    .banner p {
+        color: #FFF;
+        font-family: 'Mulish';
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        width: 304px;
+    }
+
+    .banner-box {
+        display: flex;
+        width: 250px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .banner-box {
+        align-items: center;
+    }
+
+    .banner-box .box {
+        width: 230px;
+        height: 52px;
+        border-radius: 8px;
+        margin-left: 0;
+        color: rgba(19, 19, 24, 0.50);
+        font-family: 'Mulish';
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+
+    }
+
+    .box-1 {
+        background: #FFF;
+    }
+
+    .our-popular {
+        flex-direction: column;
+    }
+
+    .our-popular img {
+        width: 100%;
+        margin-top: 37px;
+    }
+
+    .our-popular-img {
+        margin-top: 37px;
+        margin-bottom: -70px;
+    }
+
+    .our-popular-discription {
+        width: 300px;
+    }
+
+    .travel-heading h3 {
+        color: #131318;
+        font-family: 'Mulish';
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .travel-heading p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: 'Mulish';
+        font-size: 14px;
+        font-weight: 400;
+        width: 309px;
+    }
+
+    .travel-img-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .travel-img-box img {
+        width: 100%;
+        height: 176px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-price {
+        margin: 0;
+        margin-top: 16px;
+        width: 160px;
+    }
+
+    .card-heading h3 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .card-heading p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        width: 309px;
+    }
+
+    .card-map {
+        margin-top: 16px;
+    }
+
+    .card-hotel {
+        margin-top: 16px
+    }
+
+    .newspaper-section {
+        flex-direction: column;
+    }
+
+    .news-heading p {
+        color: #5A5A5D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        width: 220px;
+    }
+
+    .news-box {
+        width: 220px;
+    }
+
+    .news-img {
+        height: 300px;
+        flex-shrink: 0;
+        width: 100%;
+        margin-top: 16px;
+        background-repeat: no-repeat;
+    }
+
+    .news-bottom h3 {
+        color: #FFF;
+        text-align: center;
+        font-size: 10.854px;
+        font-weight: 400;
+    }
+
+    .news-bottom h2 {
+        color: #FFF;
+        font-size: 16.138px;
+        font-weight: 800;
+    
+    }
+
+    .news-bottom {
+        width: 155.023px;
+        height: 65.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        text-align: center;
+        position: relative;
+        bottom: -107px;
+        left:149px;
+             }
+}
